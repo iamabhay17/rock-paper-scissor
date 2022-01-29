@@ -1,0 +1,25 @@
+.footer
+{
+   display: flex;
+   
+   justify-content:center ;
+
+   
+   button
+   {
+       position: absolute;
+       bottom: 1rem;
+       padding: 7px 25px;
+       right: 3rem;
+       text-transform: uppercase;
+       border-radius: .4rem;
+       font-weight: 700;
+       border: 3px solid $header-outline;
+       color: white;
+       background: none;
+      &:hover{
+          background: #fff;
+          color: $dark-text;
+      }
+   }
+}
